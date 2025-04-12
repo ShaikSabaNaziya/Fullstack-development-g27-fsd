@@ -1,0 +1,33 @@
+/* External CSS */
+h1{
+    font-family:"Calibri";
+    font-weight: 900;
+    font-style: italic;
+}
+.footer-text {
+    color: #4B0082; /* using hex */
+    text-align: center;
+    font-size: 0.9rem;
+    padding: ;
+  }
+  
+  div {
+    background-color: rgba(9, 63, 128, 0.902);
+    padding: 15px;
+    width: 60%;
+    margin: 20px auto;
+    font-size: 1rem;
+  }
+  h3{
+    background-color: rgb(46, 53, 54);
+    color:rgba(240, 248, 255, 0.846);
+    width: 90%;
+    margin: 20px ;
+    font-size: 1rem;  
+  }
+
+  .intro{
+    font-family: cursive;
+    font-weight: bolder;
+  }
+  

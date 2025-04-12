@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>day6 assignment</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('sure trust images/bg.jpg');
+        background-sixe: cover;
+        background-position:center;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .card {
+        width: 300px;
+        height: 550px;
+        background-color:hsl(0, 12.80%, 92.40%);
+        border: 2px solid rgb(10, 96, 136);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        box-sizing: border-box; 
+        text-align: center;
+        transition:transform 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+      }
+      
+      .card:hover{
+        transform:scale(1.00);
+        box-shadow:0 12px 24px rgba(0,0,0,0.2);
+      }
+      
+      .card img {
+        width: 50%;
+        height: 30%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+      
+      .card h2 {
+        margin: 10px 0;
+        color:  rgb(26, 153, 212);
+        font-size:25;
+        font-family:serif;
+      }
+      
+      .card p {
+        color: rgb(4, 50, 71);
+        font-size: 15px;
+      }
+      
+      .icons{
+        margin-top: 15px;
+      }
+
+
+      .icons a{
+        display: inline-block;
+        transition:0.2s;
+      }
+      .icons a:hover{
+        transform: scale(1.1);
+      }
+
+      .button{
+        margin-top:15px;
+        padding:30px 50px:
+        background-color: rgb(56, 104, 130);
+        color:black;
+        border-radius:5px;
+        cursor:pointer;
+        font-weight:bold;
+        transition:0.2;
+        border: 1px solid black;
+      }
+
+      .button:hover{
+        background-color: rgb(26, 153, 212);
+      }
+
+      .icons img{
+        width:30px;
+        height:30px;
+      }
+
+      .p{
+        font-size:10px;
+      }
+
+  </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Saba Naziya</h2>
+    <img src="sure trust images/passport .jpg" alt="Profile Image">
+    <p>Frontend Developer</p>
+  
+  <div class="icons">
+    <a href="https://www.linkedin.com/in/saba-naziya-b64382286?utm_source=share&utm_
+    campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="sure trust images/lin.png"alt="Linkedin"></a>
+    <a href="https://www.facebook.com/share/1HGCkKqwnT/"><img src="sure trust images/fb.png" alt="Facebook></a>
+    <a href="https://www.instagram.com/sabanaziyashaik?igsh=YzJjeHRwbzVtOXp1"><img src="sure trust images/insta.png" alt="Instagram"></a>
+    <a href="https://github.com/ShaikSabaNaziya"><img src="sure trust images/git.png" alt="GitHub"></a>
+  </div>
+
+  <button class="button">Contact</button>
+  <p>sabanaziya9490@gmail.com</p>
+  <p>+91 7981337090</p>
+  <p>6-2-436, Kovur Nagar, Ananatapur, 515001</p>
+</div>
+
+</body>
+</html>
